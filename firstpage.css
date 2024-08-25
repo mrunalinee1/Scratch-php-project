@@ -1,0 +1,73 @@
+/* Reset some default browser styles */
+body,
+h1,
+form,
+label,
+input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the body with a background color and centered content */
+body {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style the form container */
+form {
+  background-color: #141212;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+/* Style form labels */
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+  color: #333;
+}
+
+/* Style input fields */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+/* Change button color on hover */
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Style the greeting message */
+body > p {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
